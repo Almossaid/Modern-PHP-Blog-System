@@ -23,15 +23,19 @@ require_once 'functions.php';
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         <a href="<?php echo SITE_URL; ?>/category.php?name=technology">Technology</a>
-                        <span class="badge bg-primary rounded-pill">14</span>
+                        <span class="badge bg-primary rounded-pill">1</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         <a href="<?php echo SITE_URL; ?>/category.php?name=programming">Programming</a>
-                        <span class="badge bg-primary rounded-pill">23</span>
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                         <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="<?php echo SITE_URL; ?>/category.php?name=web development">Web-Development</a>
+                        <span class="badge bg-primary rounded-pill">1</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         <a href="<?php echo SITE_URL; ?>/category.php?name=design">Design</a>
-                        <span class="badge bg-primary rounded-pill">8</span>
+                        <span class="badge bg-primary rounded-pill">1</span>
                     </li>
                 </ul>
             </div>
