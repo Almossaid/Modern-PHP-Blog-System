@@ -47,33 +47,9 @@ CREATE TABLE post_categories (
 INSERT INTO users (username, email, password) 
 VALUES ('admin', 'admin@example.com', '$1$UYy2Y1v3$nrMKF7JwaXiKSx2f2mOLk0');
 
--- Tags table
-CREATE TABLE tags (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL UNIQUE,
-    slug VARCHAR(50) NOT NULL UNIQUE,
-    keywords TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
-
--- Post tags relationship table
-CREATE TABLE post_tags (
-    post_id INT NOT NULL,
-    tag_id INT NOT NULL,
-    PRIMARY KEY (post_id, tag_id),
-    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,
-    FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE
-) ENGINE=InnoDB;
 
 -- Insert some initial categories
 INSERT INTO categories (name, slug) VALUES
-('Technology', 'technology'),
-('Travel', 'travel'),
-('Food', 'food'),
-('Lifestyle', 'lifestyle');
-
--- Insert some initial tags
-INSERT INTO tags (name, slug) VALUES
 ('PHP', 'php'),
 ('MySQL', 'mysql'),
 ('Web Development', 'web-development'),
