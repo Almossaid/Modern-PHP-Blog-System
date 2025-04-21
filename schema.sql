@@ -50,7 +50,7 @@ VALUES ('admin', 'admin@example.com', '$1$UYy2Y1v3$nrMKF7JwaXiKSx2f2mOLk0');
 
 -- Insert some initial categories
 INSERT INTO categories (name, slug) VALUES
-('PHP', 'php'),
-('MySQL', 'mysql'),
-('Web Development', 'web-development'),
-('Programming', 'programming');
+('technology', 'technology'),
+('programming', 'Programming'),
+('web development', 'Web-Development'),
+('design', 'Design');
