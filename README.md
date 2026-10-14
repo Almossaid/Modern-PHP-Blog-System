@@ -72,5 +72,5 @@ License
 -------
 This project is licensed under the MIT License.
 
-![Blog Homepage](b1.jpg)
-![Admin Dashboard](b2.jpg)
+<img width="824" height="1674" alt="Image" src="https://github.com/user-attachments/assets/0b5c5b2e-4507-40b7-9351-70600b6b6c6b" />
+<img width="1482" height="2054" alt="Image" src="https://github.com/user-attachments/assets/b5df69c5-a30c-4a57-9f90-92a5ce85e3c2" />
