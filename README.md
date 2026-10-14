@@ -5,7 +5,7 @@ A modern, feature-rich blogging platform built with PHP, featuring an admin dash
 
 Preview
 -------
-
+<img width="3198" height="1836" alt="Image" src="https://github.com/user-attachments/assets/e2aab2a6-7d32-4428-ad41-f37f777a74af" />
 
 Features
 --------
