@@ -72,5 +72,12 @@ License
 -------
 This project is licensed under the MIT License.
 
+.................
+## ❤️ Support This Project
+
+If you find this project useful, consider making a donation to support its development.
+....................
+[![Donate with PayPal](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal)]([YOUR_PAYPAL_DONATION_URL](https://www.paypal.com/donate?token=Q-MQo5TmGn-aCg9edDDsoDNXvJTAZn_tfPyi3TRvVimLmHsrmR9ckQflWwP1fMB5lXAVef3qvw-8psqC))
+
 <img width="412" height="837" alt="Image" src="https://github.com/user-attachments/assets/0b5c5b2e-4507-40b7-9351-70600b6b6c6b" />
 <img width="741" height="1027" alt="Image" src="https://github.com/user-attachments/assets/b5df69c5-a30c-4a57-9f90-92a5ce85e3c2" />
